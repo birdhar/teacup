@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+li, a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #edf0f1;
+}
+
+nav{
+
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  align-items: center;
+  align-items: center;
+}
+
+#home{
+  color: white;
+  padding-top: 4px;
+  ;
+
+}
+
+#home2{
+  color: white;
+  padding-left: 3px;
+}
+
+
+nav ul{
+  padding: 5px;
+}
+
+
+
+nav ul li {
+
+  display: inline block;
+  list-style: none;
+  float: left;
+  align-items: center;
+  position: relative;
+}
+
+nav ul li a {
+    color: 	white;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    color: 	black;
+    background: yellow;
+}
+
+#logo{
+  margin-right: 20px;
+
+}
+
+nav ul li a img{
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+
+#search{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+
+
+nav ul li ul li:hover{
+  color: white;
+  background-color: #778899;
+  text-decoration: none;
+  width: 100%;
+}
+
+input{
+  background: white;
+  color: black;
+  border: 2px solid #FFCC99;
+  
+
+}
+
+
+body{
+
+  background-image: url(https://th.bing.com/th/id/R51527fc6b3b14b087d460f846f6ece73?rik=aS3tqEBORjt7OQ&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-8%2fTea-Splash-Best-Wallpaper-24029.jpg&ehk=5K5S2djvTp0l8flvMnRw%2bZKifqTsyGfuagdr69JHcjU%3d&risl=&pid=ImgRaw);
+  background-size: cover;
+}
+
+.cap{
+  margin-top: 300px;
+  margin-left: 830px;
+  color: yellow;
+}
+
+.cap2{
+  font-size: 60px;
+  padding-left: 0;
+  font-family: 'Arizonia', cursive;
+}
+.cap1{
+  font-size: 110px;
+  padding-left: 70px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+button{
+  background: yellow;
+  border: 2px solid;
+  padding: 17px 35px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+a.btn{
+  color: white;
+  background-color: darkorange;
+  margin-left: 200px;
+  width: 110px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid darkorange;
+}
+
+a.btn:hover{
+  background: white;
+  color: black;
+  box-shadow: 5px;
+}

@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+li, a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #edf0f1;
+}
+
+nav{
+
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  align-items: center;
+  align-items: center;
+}
+
+#home{
+  color: white;
+  padding-top: 4px;
+  ;
+
+}
+
+#home2{
+  color: white;
+  padding-left: 3px;
+}
+
+
+nav ul{
+  padding: 5px;
+}
+
+
+
+nav ul li {
+
+  display: inline block;
+  list-style: none;
+  float: left;
+  align-items: center;
+  position: relative;
+}
+
+nav ul li a {
+    color: 	white;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    color: 	black;
+    background: yellow;
+}
+
+#logo{
+  margin-right: 40px;
+
+}
+
+nav ul li a img{
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+
+#search{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+
+
+nav ul li ul li:hover{
+  color: white;
+  background-color: #778899;
+  text-decoration: none;
+  width: 100%;
+}
+
+input{
+  background: white;
+  color: black;
+  border: 2px solid #FFCC99;
+  margin-right: 7px;
+
+}
+
+
+.box{
+  background-image: url(https://th.bing.com/th/id/Rdc0a5fe76f0b38dad03f2bd2effbe08f?rik=cPLeqwipBZ368Q&riu=http%3a%2f%2finthekitchen.org%2fwp-content%2fuploads%2f2017%2f05%2fCulture_and_Preparation_of_Tea.jpg&ehk=Hl4T4gT2W05436NGjh6H11bOfxYzTALCFB8oZ7dZK%2fs%3d&risl=&pid=ImgRaw);
+  background-size: 100% 100%;
+  height: 400px;
+  width: 100%;
+}
+
+.Container{
+  margin: 0;
+  background: #DCDCDC;
+  overflow: hidden;
+  padding: 45px;
+
+}
+
+.jumbotron{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#headHis{
+  text-align: center;
+}
+
+ul li h6{
+  color: black;
+}
+
+
+.Source{
+
+  background: #292929;
+  height: 150px;
+  text-align: center;
+  text color: black;
+  padding-bottom: 30px;
+  padding-top: 10px;
+
+}
+
+
+.menu2 li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.fa{
+  color : white;
+}
+
+
+.menu1 li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menu1 li a{
+  color: white;
+}
+
+.Source p{
+  color: white;
+}
+
+#soce{
+  color: white;
+}
